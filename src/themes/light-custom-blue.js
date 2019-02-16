@@ -3,25 +3,29 @@
 const $ = require('./color')
 
 const common = {
-  accent: $`FF8F40`,    // #FF8F40
-  bg: $.base`FAFAFA`,   // #FAFAFA
-  fg: $`61676C`,        // #61676C
-  ui: $`9DA2A6`         // #9DA2A6
-}
+  accent: $`ec8c38`,              // #FF8F40 to #ec8c38
+  bg: $.base`FAFAFA`,             // #FAFAFA
+  fg: $`61676C`,                  // #61676C basic text
+  ui: $`9DA2A6`                   // #9DA2A6
+}         
 
 const syntax = {
-  tag: $`55B4D4`,       // #55B4D4
-  func: $`F29718`,      // #F29718
-  entity: $`399EE6`,    // #399EE6
-  string: $`86B300`,    // #86B300
-  regexp: $`4CBF99`,    // #4CBF99
-  markup: $`F07171`,    // #F07171
-  keyword: $`FA6E32`,   // #FA6E32
-  special: $`E6B673`,   // #E6B673
-  comment: $`ABB0B6`,   // #ABB0B6
-  constant: $`A37ACC`,  // #A37ACC
-  operator: $`ED9366`,  // #ED9366
-  error: $`F51818`      // #F51818
+  tag: $`09a3d7`,                 // #55B4D4 to #09a3d7 ???
+  tagSE: $`a291ec`,               // #a291ec
+  func: $`ec8c38`,                // #F29718 to #399ee6 or #ec8c38 ???
+  entity: $`399EE6`,              // #399EE6 to #55b4d4 ???
+  string: $`83a61d`,              // #86B300 to #83a61d
+  regexp: $`4CBF99`,              // #4CBF99
+  markup: $`F07171`,              // #F07171
+  keyword: $`FA6E32`,             // #FA6E32
+  special: $`E6B673`,             // #E6B673
+  comment: $`ABB0B6`,             // #ABB0B6
+  constant: $`A37ACC`,            // #A37ACC
+  operator: $`ED9366`,            // #ED9366 to #6C7680
+  error: $`F51818`,               // #F51818
+  variableIDK: $`ec5f67`,         // #ec5f67 ??? member variable
+  variable: $`ec589a`,            // #ec589a
+  embed: $`a1715a`                // #a1715a
 }
 
 const ui = {
@@ -39,12 +43,12 @@ const ui = {
 }
 
 const editor = {
-  line: common.bg.darken3,
-  gutter: common.ui.fade35,
+  line: common.bg.darken3,         // #F3F3F3
+  gutter: $`c6d0d9`,               // #D9DBDD to #c6d0d9
   selection: {
-    bg: syntax.entity.fade9,
-    inactive: syntax.entity.fade7,
-    border: syntax.entity.fade12
+    bg: syntax.entity.fade9,       // #E9F2F8
+    inactive: syntax.entity.fade7, // #ECF4F9
+    border: syntax.entity.fade12   // #E3EFF8
   },
   guide: {
     stack: common.ui.fade30,

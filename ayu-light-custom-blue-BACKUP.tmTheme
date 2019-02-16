@@ -9,60 +9,60 @@
 	<key>name</key>
 	<string>ayu</string>
 	<key>semanticClass</key>
-	<string>ayu."{theme}"</string>
+	<string>ayu.light</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>accent</key>
-				<string>"{common.accent.hex}"</string>
+				<string>#ec8c38</string>
 				<key>activeGuide</key>
-				<string>"{editor.guide.active.hex}"</string>
+				<string>#B9BCBF</string>
 				<key>background</key>
-				<string>"{common.bg.hex}"</string>
+				<string>#FAFAFA</string>
 				<key>caret</key>
-				<string>"{common.accent.hex}"</string>
+				<string>#ec8c38</string>
 				<key>findHighlight</key>
-				<string>"{common.accent.hex}"</string>
+				<string>#ec8c38</string>
 				<key>findHighlightForeground</key>
-				<string>"{common.bg.hex}"</string>
+				<string>#FAFAFA</string>
 				<key>foreground</key>
-				<string>"{common.fg.hex}"</string>
+				<string>#61676C</string>
 				<key>guide</key>
-				<string>"{editor.guide.normal.hex}"</string>
+				<string>#DEE0E1</string>
 				<key>gutter</key>
-				<string>"{common.bg.hex}"</string>
+				<string>#FAFAFA</string>
 				<key>gutterForeground</key>
-				<string>"{editor.gutter.hex}"</string>
+				<string>#c6d0d9</string>
 				<key>inactiveBackground</key>
-				<string>"{common.bg.hex}"</string>
+				<string>#FAFAFA</string>
 				<key>inactiveSelection</key>
-				<string>"{editor.selection.inactive.hex}"</string>
+				<string>#ECF4F9</string>
 				<key>invisibles</key>
-				<string>"{editor.gutter.hex}"</string>
+				<string>#c6d0d9</string>
 				<key>lineHighlight</key>
-				<string>"{editor.line.hex}"</string>
+				<string>#F3F3F3</string>
 				<key>popupCss</key>
 				<string>html, body {
-  background-color: "{ui.panel.bg.hex}";
-  color: "{common.fg.hex}";
+  background-color: #FFFFFF;
+  color: #61676C;
 }
 body {
   padding: 1px 3px;
 }
 a {
-  color: rgba("{syntax.tag.rgb}", .7);
+  color: rgba(85, 180, 212, .7);
 }
 </string>
 				<key>selection</key>
-				<string>"{editor.selection.bg.hex}"</string>
+				<string>#E9F2F8</string>
 				<key>selectionBorder</key>
-				<string>"{editor.selection.border.hex}"</string>
+				<string>#E3EFF8</string>
 				<key>shadow</key>
 				<string>#00000010</string>
 				<key>stackGuide</key>
-				<string>"{editor.guide.stack.hex}"</string>
+				<string>#DEE0E1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -75,7 +75,7 @@ a {
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>"{syntax.comment.hex}"</string>
+				<string>#ABB0B6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -86,7 +86,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.variable.hex}"</string>
+				<string>#ec589a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -97,7 +97,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.string.hex}"</string>
+				<string>#83a61d</string>
 			</dict>
 		</dict>
 		<dict>
@@ -108,7 +108,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{common.accent.hex}"</string>
+				<string>#ec8c38</string>
 			</dict>
 		</dict>
 		<dict>
@@ -119,7 +119,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.regexp.hex}"</string>
+				<string>#4CBF99</string>
 			</dict>
 		</dict>
 		<dict>
@@ -130,7 +130,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{common.accent.hex}"</string>
+				<string>#ec8c38</string>
 			</dict>
 		</dict>
 		<dict>
@@ -141,7 +141,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{common.accent.hex}"</string>
+				<string>#ec8c38</string>
 			</dict>
 		</dict>
 		<dict>
@@ -152,7 +152,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.variable.hex}"</string>
+				<string>#ec5f67</string>
 			</dict>
 		</dict>
 		<dict>
@@ -163,7 +163,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.keyword.hex}"</string>
+				<string>#FA6E32</string>
 			</dict>
 		</dict>
 		<dict>
@@ -174,7 +174,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.operator.hex}"</string>
+				<string>#6C7680</string>
 			</dict>
 		</dict>
 		<dict>
@@ -185,18 +185,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{common.fg.hex}"</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Punctuation</string>
-			<key>scope</key>
-			<string>punctuation.section</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>"{common.fg.hex}"</string>
+				<string>#6C7680</string>
 			</dict>
 		</dict>
 		<dict>
@@ -207,7 +196,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.operator.hex}"</string>
+				<string>#ED9366</string>
 			</dict>
 		</dict>
 		<dict>
@@ -218,7 +207,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{common.fg.hex}"CC</string>
+				<string>#61676CCC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -229,7 +218,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.special.hex}"</string>
+				<string>#E6B673</string>
 			</dict>
 		</dict>
 		<dict>
@@ -240,7 +229,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.keyword.hex}"</string>
+				<string>#FA6E32</string>
 			</dict>
 		</dict>
 		<dict>
@@ -251,7 +240,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.keyword.hex}"</string>
+				<string>#FA6E32</string>
 			</dict>
 		</dict>
 		<dict>
@@ -262,7 +251,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.func.hex}"</string> <!-- #399ee6 -->
+				<string>#399ee6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -273,7 +262,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.entity.hex}"</string>
+				<string>#399EE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -286,7 +275,7 @@ a {
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>"{syntax.entity.hex}"</string>
+				<string>#399EE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -297,7 +286,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{common.accent.hex}"</string>
+				<string>#ec8c38</string>
 			</dict>
 		</dict>
 		<dict>
@@ -310,7 +299,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -321,7 +310,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -332,7 +321,8 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tagSE.hex}"</string>
+				<string>#a291ec</string>
+				<!-- <string>#ed9366</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -343,9 +333,20 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.func.hex}"</string> <!-- #ec8c38 -->
+				<string>#ec8c38</string>
 			</dict>
 		</dict>
+		<!-- <dict>
+			<key>name</key>
+			<string>Attribute IDs</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id, punctuation.definition.entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#399ee6</string>
+			</dict>
+		</dict> -->
 		<dict>
 			<key>name</key>
 			<string>Selector</string>
@@ -354,7 +355,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#55b4d4</string> <!-- needs variable -->
+				<string>#55b4d4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -365,7 +366,9 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.func.hex}"</string> <!-- #399EE6 -->
+				<!-- <string>#f48388</string> -->
+				<!-- <string>#58b8d8</string> -->
+				<string>#399EE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -376,7 +379,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.markup.hex}"</string> <!-- #4cbf99 -->
+				<string>#4cbf99</string>
 			</dict>
 		</dict>
 		<dict>
@@ -389,7 +392,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>"{syntax.operator.hex}"</string>
+				<string>#ED9366</string>
 			</dict>
 		</dict>
 		<dict>
@@ -402,7 +405,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -415,7 +418,8 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>"{syntax.embed.hex}"</string>
+				<!-- <string>#e3a601</string> -->
+				<string>#a1715a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -426,7 +430,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.error.hex}"</string>
+				<string>#F51818</string>
 			</dict>
 		</dict>
 		<dict>
@@ -437,7 +441,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{syntax.keyword.hex}"</string>
+				<string>#FA6E32</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -461,7 +465,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.func.hex}"</string> <!-- #399ee6 -->
+				<string>#399ee6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -472,11 +476,11 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.entity.hex}"</string> <!-- #55b4d4 -->
+				<string>#55b4d4</string>
 			</dict>
 		</dict>
 
-		<!-- <dict>
+		<dict>
 			<key>name</key>
 			<string>CSS Class names</string>
 			<key>scope</key>
@@ -498,7 +502,7 @@ a {
 				<key>foreground</key>
 				<string>#ec8c38</string>
 			</dict>
-		</dict> -->
+		</dict>
 
 		<dict>
 			<key>name</key>
@@ -508,7 +512,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.comment.hex}"</string>
+				<string>#ABB0B6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -521,7 +525,7 @@ a {
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>"{common.fg.hex}"</string> <!-- #6C7660 -->
+				<string>#6C7660</string>
 			</dict>
 		</dict>
 		<dict>
@@ -532,7 +536,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.comment.hex}"</string>
+				<string>#ABB0B6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -543,7 +547,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.keyword.hex}"</string>
+				<string>#FA6E32</string>
 			</dict>
 		</dict>
 		<dict>
@@ -554,7 +558,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.string.hex}"</string>
+				<string>#86b300</string>
 			</dict>
 		</dict>
 		<dict>
@@ -563,7 +567,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.error.hex}"</string>
+				<string>#F51818</string>
 			</dict>
 		</dict>
 		<dict>
@@ -574,7 +578,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -585,7 +589,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -596,7 +600,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -607,7 +611,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -618,7 +622,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -629,7 +633,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -640,7 +644,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -651,7 +655,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -662,7 +666,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -675,7 +679,7 @@ a {
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>"{syntax.keyword.hex}"</string>
+				<string>#FA6E32</string>
 			</dict>
 		</dict>
 		<dict>
@@ -688,7 +692,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
-				<string>"{syntax.regexp.hex}"</string>
+				<string>#4CBF99</string>
 			</dict>
 		</dict>
 		<dict>
@@ -699,7 +703,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.func.hex}"</string>
+				<string>#399ee6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -712,7 +716,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>"{syntax.markup.hex}"</string>
+				<string>#F07171</string>
 			</dict>
 		</dict>
 		<dict>
@@ -725,7 +729,7 @@ a {
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>"{syntax.markup.hex}"</string>
+				<string>#F07171</string>
 			</dict>
 		</dict>
 		<dict>
@@ -747,7 +751,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{common.fg.hex}"07</string>
+				<string>#61676C07</string>
 			</dict>
 		</dict>
 		<dict>
@@ -758,7 +762,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{common.fg.hex}"10</string>
+				<string>#61676C10</string>
 			</dict>
 		</dict>
 		<dict>
@@ -769,11 +773,11 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{common.fg.hex}"10</string>
+				<string>#61676C10</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>"{syntax.comment.hex}"</string>
+				<string>#ABB0B6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -786,7 +790,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>"{common.accent.hex}"</string>
+				<string>#ec8c38</string>
 			</dict>
 		</dict>
 		<dict>
@@ -797,7 +801,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.regexp.hex}"</string>
+				<string>#4CBF99</string>
 			</dict>
 		</dict>
 		<dict>
@@ -808,7 +812,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.string.hex}"</string>
+				<string>#86b300</string>
 			</dict>
 		</dict>
 		<dict>
@@ -819,7 +823,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -830,7 +834,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.markup.hex}"</string>
+				<string>#F07171</string>
 			</dict>
 		</dict>
 		<dict>
@@ -841,7 +845,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.special.hex}"</string>
+				<string>#E6B673</string>
 			</dict>
 		</dict>
 		<dict>
@@ -852,9 +856,9 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{common.fg.hex}"10</string>
+				<string>#61676C10</string>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -865,7 +869,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.operator.hex}"</string>
+				<string>#ED9366</string>
 			</dict>
 		</dict>
 		<dict>
@@ -876,7 +880,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.comment.hex}"</string>
+				<string>#ABB0B6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -887,9 +891,9 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{common.fg.hex}"10</string>
+				<string>#61676C10</string>
 				<key>foreground</key>
-				<string>"{common.fg.hex}"</string>
+				<string>#61676C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -900,9 +904,9 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{common.fg.hex}"10</string>
+				<string>#61676C10</string>
 				<key>foreground</key>
-				<string>"{syntax.comment.hex}"</string>
+				<string>#ABB0B6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -913,7 +917,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.comment.hex}"</string>
+				<string>#ABB0B6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -924,7 +928,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.string.hex}"</string>
+				<string>#638400</string>
 			</dict>
 		</dict>
 		<dict>
@@ -935,7 +939,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -946,7 +950,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.error.hex}"</string>
+				<string>#F51818</string>
 			</dict>
 		</dict>
 		<dict>
@@ -957,7 +961,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{common.ui.fade30.hex}"</string>
+				<string>#DEE0E1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -968,7 +972,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{common.ui.fade30.hex}"</string>
+				<string>#DEE0E1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -990,7 +994,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -1003,7 +1007,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{syntax.string.hex}"</string>
+				<string>#86b300</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -1016,7 +1020,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{syntax.keyword.hex}"</string>
+				<string>#FA6E32</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -1029,7 +1033,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>"{syntax.markup.hex}"</string>
+				<string>#F07171</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -1042,7 +1046,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.tag.hex}"</string>
+				<string>#09a3d7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1064,7 +1068,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.error.hex}"</string>
+				<string>#F51818</string>
 			</dict>
 		</dict>
 	</array>
