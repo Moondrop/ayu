@@ -343,7 +343,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.func.hex}"</string> <!-- #ec8c38 -->
+				<string>"{syntax.tagAttr.hex}"</string> <!-- #ec8c38 -->
 			</dict>
 		</dict>
 		<dict>
@@ -376,7 +376,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>"{syntax.markup.hex}"</string> <!-- #4cbf99 -->
+				<string>"{syntax.regexp.hex}"</string> <!-- previously syntax.operator.hex #F07171 -->
 			</dict>
 		</dict>
 		<dict>
@@ -389,7 +389,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>"{syntax.operator.hex}"</string>
+				<string>"{syntax.operator.hex}"</string> 
 			</dict>
 		</dict>
 		<dict>
