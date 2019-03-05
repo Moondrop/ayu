@@ -13,9 +13,9 @@ const syntax = {
   tag: $`09a3d7`,                 // #55B4D4 to #09a3d7
   tagSE: $`a291ec`,               // #a291ec
   tagAttr: $`ec8c38`,             // #ec8c38
-  func: $`a478ce`,                // #F29718 to #a478ce or to #0982d7
+  func: $`be7acf`,                // #F29718 to #be7acf or to #0982d7
   entity: $`399EE6`,              // #399EE6 to #55b4d4 ???
-  string: $`83a61d`,              // #86B300 to #83a61d
+  string: $`83a61d`,              // #86B300 to #83a61d or to #82ae00
   regexp: $`4CBF99`,              // #4CBF99
   markup: $`F07171`,              // #F07171
   keyword: $`FA6E32`,             // #FA6E32
