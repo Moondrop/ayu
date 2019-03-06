@@ -10,13 +10,13 @@ const common = {
 }         
 
 const syntax = {
-  tag: $`1cb5bb`,                 // #55B4D4 to #09a3d7
+  tag: $`1cb5bb`,                 // #55B4D4 to #09a3d7 to #1cb5bb
   tagSE: $`a291ec`,               // #a291ec
   tagAttr: $`ec8c38`,             // #ec8c38
   func: $`09a3d7`,                // #F29718 to #be7acf or to #0982d7
   entity: $`399EE6`,              // #399EE6 to #55b4d4 ???
   string: $`83a61d`,              // #86B300 to #83a61d or to #82ae00
-  regexp: $`4CBF99`,              // #4CBF99
+  regexp: $`be7acf`,              // #4CBF99
   markup: $`F07171`,              // #F07171
   keyword: $`FA6E32`,             // #FA6E32
   special: $`E6B673`,             // #E6B673
