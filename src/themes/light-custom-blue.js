@@ -10,10 +10,10 @@ const common = {
 }         
 
 const syntax = {
-  tag: $`09a3d7`,                 // #55B4D4 to #09a3d7
+  tag: $`1cb5bb`,                 // #55B4D4 to #09a3d7
   tagSE: $`a291ec`,               // #a291ec
   tagAttr: $`ec8c38`,             // #ec8c38
-  func: $`bc74ce`,                // #F29718 to #be7acf or to #0982d7
+  func: $`09a3d7`,                // #F29718 to #be7acf or to #0982d7
   entity: $`399EE6`,              // #399EE6 to #55b4d4 ???
   string: $`83a61d`,              // #86B300 to #83a61d or to #82ae00
   regexp: $`4CBF99`,              // #4CBF99
