@@ -14,14 +14,14 @@ const syntax = {
   tagSE: $`a291ec`,               // #a291ec
   tagAttr: $`ec8c38`,             // #ec8c38
   func: $`09a3d7`,                // #F29718 to #be7acf or to #0982d7
-  entity: $`399EE6`,              // #399EE6 to #55b4d4 ???
+  entity: $`1cb5bb`,              // #399EE6 to #55b4d4 ??? to #1cb5bb
   string: $`83a61d`,              // #86B300 to #83a61d or to #82ae00
   regexp: $`be7acf`,              // #4CBF99
   markup: $`F07171`,              // #F07171
   keyword: $`FA6E32`,             // #FA6E32
   special: $`E6B673`,             // #E6B673
   comment: $`ABB0B6`,             // #ABB0B6
-  constant: $`A37ACC`,            // #A37ACC
+  constant: $`be7acf`,            // #A37ACC to #be7acf
   operator: $`ED9366`,            // #ED9366 to #6C7680
   error: $`F51818`,               // #F51818
   variableIDK: $`ec5f67`,         // #ec5f67 ??? member variable

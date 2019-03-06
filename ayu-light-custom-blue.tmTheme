@@ -38,7 +38,7 @@
 				<key>inactiveBackground</key>
 				<string>#FAFAFA</string>
 				<key>inactiveSelection</key>
-				<string>#ECF4F9</string>
+				<string>#EAF5F6</string>
 				<key>invisibles</key>
 				<string>#C6D0D9</string>
 				<key>lineHighlight</key>
@@ -56,9 +56,9 @@ a {
 }
 </string>
 				<key>selection</key>
-				<string>#E9F2F8</string>
+				<string>#E6F4F4</string>
 				<key>selectionBorder</key>
-				<string>#E3EFF8</string>
+				<string>#DFF2F2</string>
 				<key>shadow</key>
 				<string>#00000010</string>
 				<key>stackGuide</key>
@@ -273,7 +273,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#399EE6</string>
+				<string>#1CB5BB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -286,7 +286,7 @@ a {
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>#399EE6</string>
+				<string>#1CB5BB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -472,7 +472,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#399EE6</string> <!-- #55b4d4 -->
+				<string>#1CB5BB</string> <!-- #55b4d4 -->
 			</dict>
 		</dict>
 
