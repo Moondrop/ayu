@@ -179,6 +179,17 @@ a {
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Sass Ampersand</string>
+			<key>scope</key>
+			<string>source.scss keyword.operator.ampersand.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6B673</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
 			<string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
