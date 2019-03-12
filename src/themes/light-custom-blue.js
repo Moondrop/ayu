@@ -11,7 +11,7 @@ const common = {
 
 const syntax = {
   tag: $`00b4bb`,                 // #55B4D4 to #09a3d7 to #00b4bb
-  tagSE: $`9b88eb`,               // #a291ec to #9b88eb
+  tagSE: $`3c77bf`,               // #a291ec to #9b88eb
   tagAttr: $`ec8c38`,             // #ec8c38
   func: $`09a3d7`,                // #F29718 to #be7acf or to #0982d7
   entity: $`1cb5bb`,              // #399EE6 to #55b4d4 ??? to #1cb5bb
